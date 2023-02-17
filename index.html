@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icon-reloj.png" type="image/png"/>
+    <script src="js/reloj.js"></script>
+    <title>Reloj con Javascript</title>
+</head>
+<body onload="mueveReloj()">
+    <div class="contenedor">
+        <form name="form_fecha" class="cont-fecha">
+            <input type="text" name="fecha" class="fecha" onfocus="window.document.form_fecha.fecha.blur()">
+        </form>
+
+        <form name="form_reloj" class="cont-reloj">
+            <input type="text" name="reloj" class="reloj" onfocus="window.document.form_reloj.reloj.blur()">
+        </form>
+
+        <div class="copyright">
+            <p>Copyright © 2022 Daniel David Calderón Tinjaca. Todos los derechos reservados</p>
+        </div>
+    </div>
+</body>
+</html>
